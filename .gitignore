@@ -1,0 +1,8 @@
+# Ignore the data directory
+data/
+
+# Ignore the wandb directory
+wandb/
+
+# Common Python-related ignores
+__pycache__/
