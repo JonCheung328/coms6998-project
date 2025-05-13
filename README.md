@@ -74,20 +74,6 @@ This project leverages a **Denoising Diffusion Probabilistic Model (DDPM)** with
 
 *Table: Comparison of Epoch Time and Memory Usage Across Methods*
 
-### Quantitative Metrics
-
-| Model Variant                  | FID ↓   | KID (×100) ↓ | LPIPS ↓  |
-|------------------------------- |-------- |------------- |--------- |
-| Baseline (Pre-trained DDPM)    | 34.2    | 2.10         | 0.215    |
-| Fine-tuned w/ Optimizations    | 22.8    | 1.35         | 0.198    |
-| + Improved Noise Scheduling    | 19.6    | 1.12         | 0.185    |
-| + Patch-Based Learning         | 20.1    | 1.16         | 0.188    |
-
-- **FID**: Fréchet Inception Distance (lower is better)
-- **KID**: Kernel Inception Distance (lower is better)
-- **LPIPS**: Learned Perceptual Image Patch Similarity (lower is better)
-
-
 <div style="text-align: center;">
     <img src="diagrams/loss.png" alt="Training Time Chart" width="400">
     <p>*Figure 1: Training time chart.*</p>
