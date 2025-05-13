@@ -6,3 +6,5 @@ wandb/
 
 # Common Python-related ignores
 __pycache__/
+
+images/
