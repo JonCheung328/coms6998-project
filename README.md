@@ -95,7 +95,7 @@ pip install -r requirements.txt
    [Anime Face Dataset | Kaggle](https://www.kaggle.com/datasets/splcher/animefacedataset/data).  
 
 3. **Place the Dataset**  
-   After downloading, place the dataset in the `image` directory of the repository.
+   After downloading, place the dataset in the `data` directory of the repository.
 
 4. **Run the Notebook**  
    Open and execute the **`final.ipynb`** notebook to train the model and generate anime face images.
